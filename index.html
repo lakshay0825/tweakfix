@@ -1,230 +1,403 @@
 <!DOCTYPE html>
-<html lang="en"><!-- Basic -->
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
-     <!-- Site Metas -->
-    <title>The Real Wedding - Responsive OnePage HTML5 Template</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-png">
-    <link rel="apple-touch-icon" href="images/logo.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">    
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+   <meta charset="utf-8">
+   <title>TweakFix.co</title>
+   <meta name="description"
+      content="TweakFix.co is a 3rd party app store for all the latest iOS versions up to iOS 17. Download Jailbreak Tweaks, jailbreak IPA’s, System tweaks, emulators &amp; many more!">
+   <meta name="keywords" content="TweakFix.co, Download TweakFix.co, Install TweakFix.co, TweakFix.co app store">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/jquery-ui.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/slicknav.min.css">
+   <link rel="stylesheet" href="css/magnificpopup.css">
+   <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+   <link rel="stylesheet" href="css/typography.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
-	
-	<!-- Start header -->
-	<header class="top-header">
-		<nav class="navbar header-nav navbar-expand-lg">
-            <div class="container">
-				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
-						<li><a class="nav-link" href="#">Contact Us</a></li>
-                    </ul>
-                </div>
+
+<body>
+   <div id="preloader">
+      <div class="spinner"></div>
+   </div>
+   <header id="header">
+      <div class="header-area">
+         <div class="menu-area">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+               <div class="logo">
+                  <a href="index.html"><svg id="zNGcMTfpo" viewBox="0 0 395.3513301000304 93" height="93"
+                        width="395.3513301000304"
+                        style="width: 395.351px; height: 93px; position: absolute; top: 50%; left: 50%; z-index: 0; cursor: pointer; overflow: visible; transform: translate(-50%, -50%) scale(0.542555);">
+                        <defs id="SvgjsDefs1060"></defs>
+                        <g id="SvgjsG1061" featurekey="symbolGroupContainer" transform="matrix(1,0,0,1,0,0)"
+                           fill="#222831">
+                           <rect width="103" height="93" rx="8"></rect>
+                        </g>
+                        <g id="SvgjsG1062" featurekey="symbolFeature-0"
+                           transform="matrix(0.08974358974358974,0,0,0.08974358974358974,20.08974358974359,15.08974358974359)"
+                           fill="#fd7014">
+                           <g xmlns="http://www.w3.org/2000/svg">
+                              <title>background</title>
+                              <rect x="-1" y="-1" width="702" height="702" style="fill: none;"></rect>
+                           </g>
+                           <g xmlns="http://www.w3.org/2000/svg">
+                              <title>Layer 1</title>
+                              <g>
+                                 <g>
+                                    <path
+                                       d="M222,158.3c-31,0.7-57.5,21-79.5,60.8c-23.1,44.8-34.5,94.6-34.3,149.4c0.4,6.6,1.1,7.2,2.2,1.9     c9.3-40.3,19-71.8,29.1-94.6c9.9-22.9,20.9-41.7,32.9-56.2c27.6-32.1,51.5-37.3,71.8-15.6c22.2,25.6,34,68.8,35.4,129.4     c-1.2,81.5-11.9,143.1-32.1,185c-25.3,51-51.3,68-77.7,50.8c-36-28.7-56-92.3-60-190.6c-1.4-3.4-2.7-0.9-3.7,7.5     c-1.9,10.2-3.2,21.4-4,33.3c-3,53.4,4.1,98.7,21.2,135.9c17.5,35.3,40.8,53.2,69.9,53.8c31.4-0.5,60-21,85.9-61.7     c25.8-42.5,42.4-94.3,49.7-155.6c2.7-65.2-6.1-120.7-26.3-166.5c-20.4-43.6-47.1-66-80-67.2">
+                                    </path>
+                                 </g>
+                                 <g>
+                                    <path
+                                       d="M452,134.1c-16.1-26.4-46.9-39.3-92.4-38.5c-50.3,2.4-99.2,17.4-146.6,45c-5.5,3.6-5.7,4.6-0.6,2.9     c39.6-12.1,71.7-19.5,96.4-22.1c24.8-2.9,46.5-2.8,65.1,0.4c41.6,7.9,58.1,26,49.4,54.4c-11.1,32-42.6,63.8-94.4,95.4     c-71.2,39.7-129.9,61.3-176.2,64.7c-56.9,3.6-84.5-10.4-82.8-41.9C77,248.8,122,199.7,205.1,147c2.2-2.9-0.6-2.7-8.3,0.6     c-9.8,3.5-20.1,7.9-30.9,13.2c-47.7,24.1-83.5,52.9-107.1,86.3c-21.8,32.8-25.7,62-11.7,87.4c16.1,26.9,48.2,41.4,96.4,43.5     c49.7,1.1,102.9-10.4,159.6-34.8c57.8-30.3,101.5-65.6,131-106c27.6-39.5,33.6-73.8,18.2-102.9">
+                                    </path>
+                                 </g>
+                                 <g>
+                                    <path
+                                       d="M588,321.2c14.8-27.2,10.6-60.3-12.9-99.3c-27.3-42.4-64.7-77.2-112.3-104.4c-5.9-3-6.8-2.7-2.8,0.9     c30.3,28.2,52.7,52.4,67.4,72.4c14.9,20.1,25.7,38.9,32.2,56.6c14,40,6.5,63.3-22.4,69.9c-33.3,6.4-76.5-5-129.8-34     c-69.9-41.8-118-81.9-144.2-120.2c-31.5-47.5-33.2-78.4-5.1-92.7c42.9-16.8,107.9-2.3,195.1,43.4c3.6,0.4,2.1-1.9-4.7-6.9     c-7.9-6.8-16.9-13.5-26.9-20.2c-44.7-29.3-87.5-45.8-128.3-49.6c-39.3-2.5-66.5,8.7-81.6,33.6c-15.3,27.4-11.8,62.5,10.5,105.2     c23.9,43.6,60.5,83.9,109.9,120.8c55.1,34.9,107.6,55.1,157.3,60.4c48,4.1,80.8-7.8,98.2-35.7">
+                                    </path>
+                                 </g>
+                                 <g>
+                                    <path
+                                       d="M494,532.5c31-0.7,57.5-21,79.5-60.8c23.1-44.8,34.5-94.6,34.3-149.4c-0.4-6.6-1.1-7.2-2.2-1.9     c-9.3,40.3-19,71.8-29.1,94.6c-9.9,22.9-20.9,41.7-32.9,56.2c-27.6,32.1-51.5,37.3-71.8,15.6c-22.2-25.6-34-68.8-35.4-129.4     c1.2-81.5,11.9-143.1,32.1-185c25.3-51,51.3-68,77.7-50.8c36,28.7,56,92.3,60,190.6c1.4,3.4,2.7,0.9,3.7-7.5     c1.9-10.2,3.2-21.4,4-33.3c3-53.4-4.1-98.7-21.2-135.9c-17.5-35.3-40.8-53.2-69.9-53.8c-31.4,0.5-60,21-85.9,61.7     c-25.8,42.5-42.4,94.3-49.7,155.6c-2.7,65.2,6.1,120.7,26.3,166.5c20.4,43.6,47.1,66,80,67.2">
+                                    </path>
+                                 </g>
+                                 <g>
+                                    <path
+                                       d="M128,369.6c-14.8,27.2-10.6,60.3,12.9,99.3c27.3,42.4,64.7,77.2,112.3,104.4c5.9,3,6.8,2.7,2.8-0.9     c-30.3-28.2-52.7-52.4-67.4-72.4c-14.9-20.1-25.7-38.9-32.2-56.6c-14-40-6.5-63.3,22.4-69.9c33.3-6.4,76.5,5,129.8,34     c69.9,41.8,118,81.9,144.2,120.2c31.5,47.5,33.2,78.4,5.1,92.7c-42.9,16.8-107.9,2.3-195.1-43.4c-3.6-0.4-2.1,1.9,4.7,6.9     c7.9,6.8,16.9,13.5,26.9,20.2c44.7,29.3,87.5,45.8,128.3,49.6c39.3,2.5,66.5-8.7,81.6-33.6c15.3-27.4,11.8-62.5-10.5-105.2     c-23.9-43.6-60.5-83.9-109.9-120.8c-55.1-34.9-107.6-55.1-157.3-60.4c-48-4.1-80.8,7.8-98.2,35.7">
+                                    </path>
+                                 </g>
+                                 <g>
+                                    <path
+                                       d="M264,556.7c16.1,26.4,46.9,39.3,92.4,38.5c50.3-2.4,99.2-17.4,146.6-45c5.5-3.6,5.7-4.6,0.6-2.9     c-39.6,12.1-71.7,19.5-96.4,22.1c-24.8,2.9-46.5,2.8-65.1-0.4c-41.6-7.9-58.1-26-49.4-54.4c11.1-32,42.6-63.8,94.4-95.4     c71.2-39.7,129.9-61.3,176.2-64.7c56.9-3.6,84.5,10.4,82.8,41.9c-6.9,45.5-51.9,94.6-135.1,147.3c-2.2,2.9,0.6,2.7,8.3-0.6     c9.8-3.5,20.1-7.9,30.9-13.2c47.7-24.1,83.5-52.9,107.1-86.3c21.8-32.8,25.7-62,11.7-87.4c-16.1-26.9-48.2-41.4-96.3-43.5     c-49.7-1.1-102.9,10.4-159.6,34.8c-57.8,30.3-101.5,65.6-131,106c-27.6,39.5-33.6,73.8-18.2,102.9">
+                                    </path>
+                                 </g>
+                              </g>
+                           </g>
+                        </g>
+                        <g id="SvgjsG1063" featurekey="nameLeftFeature-0"
+                           transform="matrix(1.1904760493112638,0,0,1.1904760493112638,120.61933045574337,17.380958027549454)"
+                           fill="#ffffff">
+                           <path
+                              d="M7.08 35.64 c0.04 1.24 0.04 2.48 0.08 3.72 c0 0.56 0.04 0.64 0.6 0.64 l3.6 0 c0.76 0 0.6 -1.28 0.56 -1.96 l0.12 -22.4 c0 -0.6 0.2 -0.8 1 -0.8 l3.52 0 c0.84 0 0.64 -1.44 0.64 -2.44 c0 -0.88 0.32 -2.4 -0.64 -2.4 c-0.68 0 -7.2 0 -9.88 0.04 c-1.32 0 -2.4 -0.04 -3.72 -0.04 c-1 0 -0.96 0.8 -0.96 2.56 c0 1.12 -0.04 2.24 0.92 2.24 c0.56 0 2.84 0 3.48 0.04 c0.4 0 0.68 0.12 0.76 0.56 c0 0.12 0.04 0.24 0.04 0.36 c0 2.88 -0.2 16.28 -0.12 19.88 z M22.880000000000003 9.96 c-0.04 0 -0.36 -0.04 -0.68 -0.04 c-0.56 0 -0.84 0.2 -0.92 0.72 c-0.04 0.28 -0.04 0.6 0.04 0.84 c0.32 1.24 6.52 26.88 6.84 28 c0.12 0.48 0.16 0.48 0.64 0.48 l3.24 0 l0.24 0 c0.52 0 0.56 -0.72 0.68 -1.4 c0.8 -4.12 1.8 -8.2 2.76 -12.16 c0.04 -0.24 0.12 -0.48 0.2 -0.68 c0.04 -0.08 0.12 -0.12 0.16 -0.12 c0.08 0 0.16 0.04 0.2 0.12 c0.2 0.48 2.6 11.84 3.08 13.8 c0.08 0.24 0.2 0.44 0.52 0.44 l3.2 0 c0.6 0 1 -0.32 1.12 -0.92 c0.52 -2.64 1.2 -5.6 1.84 -8.2 c0.8 -3.2 1.64 -6.36 2.48 -9.56 c0.64 -2.56 1.32 -5.36 2.12 -7.88 c0.28 -0.84 1.32 -3.36 -0.44 -3.36 c-0.88 0 -1.64 -0.08 -2.52 -0.04 c-0.28 0 -0.56 0 -0.84 0.04 c-0.44 0 -0.76 0.24 -0.92 0.64 c-0.12 0.4 -0.32 0.84 -0.44 1.24 c-0.6 2.56 -1.16 5.48 -1.88 8 c-0.52 1.88 -1.08 3.72 -1.52 5.6 c0 0.04 -0.16 0.64 -0.32 0.64 c-0.28 0 -0.36 -0.44 -0.44 -0.84 c-0.04 -0.16 -2.04 -11.64 -2.32 -13.88 c-0.08 -0.88 -0.36 -1.4 -1.28 -1.44 l-0.48 0 c-1.04 0.08 -1.6 -0.04 -2.64 0.04 c-0.84 0.04 -0.96 0.12 -1.16 0.88 c-0.04 0.16 -0.04 0.36 -0.08 0.56 c-0.32 1.76 -2.4 13.12 -2.68 14.48 c0 0.08 -0.04 0.24 -0.16 0.24 c-0.16 0 -0.2 -0.2 -0.24 -0.28 c-0.04 -0.16 -3.52 -14.84 -3.64 -15.2 c-0.16 -0.48 -0.52 -0.76 -1.08 -0.76 c-0.88 0.04 -1.56 0 -2.68 0 z M55.24 31.8 l-0.04 0 c0 1 -0.04 2.04 0 3.08 c0.04 1.28 0.12 2.56 0.2 3.84 c0 0.44 0.12 0.56 0.52 0.64 c0.84 0.2 1.64 0.24 2.48 0.24 c2.16 -0.08 4.32 0.08 6.48 0 c0.88 -0.04 1.28 0.04 2.16 -0.12 c0.8 -0.16 1.08 -0.6 1.08 -1.8 c-0.08 -0.76 -0.04 -1.08 -0.04 -2 c0 -1.32 -0.92 -1.76 -1.72 -1.72 c-0.56 0.04 -3.24 -0.04 -4.32 -0.04 c-1.8 0.04 -1.52 0.28 -1.52 -1.6 c0 -1.52 0.04 -3.48 0.04 -5.04 c0 -0.84 0.08 -1.12 0.88 -1.12 l5 0 c0.8 0.12 1.36 -0.44 1.36 -1.28 s0.08 -0.88 0.08 -1.72 l-0.12 -1.2 c-0.08 -0.68 -0.32 -0.92 -1 -0.92 c-0.44 0 -0.88 0.04 -1.32 0.08 c-1.72 0.12 -2.52 -0.12 -4.2 0 c-0.56 0 -0.64 -0.08 -0.68 -0.6 c-0.16 -1.56 0 -3.28 0.16 -4.84 c0.04 -0.64 0.2 -0.76 0.8 -0.8 l5.64 -0.04 c0.76 -0.08 1 -0.04 0.96 -0.8 c-0.08 -1.16 0.04 -2.36 -0.08 -3.52 c-0.08 -0.64 -0.28 -0.76 -1 -0.76 c-1.2 0.04 -1.48 0.04 -2.68 0.12 c-1.2 0.04 -6 0.04 -7.16 0.04 c-1.68 0 -1.8 -0.12 -1.84 1.92 c-0.08 1.6 -0.04 3.24 -0.04 4.88 c0 2.8 -0.16 12.84 -0.08 15.08 z">
+                           </path>
+                        </g>
+                        <g id="SvgjsG1064" featurekey="inlineSymbolFeature-0"
+                           transform="matrix(0.45,0,0,0.45,202.5,24.5)" fill="#ffffff">
+                           <path xmlns="http://www.w3.org/2000/svg"
+                              d="M50,10L10,90h80L50,10z M50,24.909L72.546,70H42.36l3.333-6.667h16.064L50,39.814L31.575,76.667h44.304l3.333,6.666H20.788  L50,24.909z">
+                           </path>
+                        </g>
+                        <g id="SvgjsG1065" featurekey="nameRightFeature-0"
+                           transform="matrix(1.187271544793591,0,0,1.187271544793591,245.61263932665642,17.44219838345758)"
+                           fill="#ffffff">
+                           <path
+                              d="M7.44 32.76 c0 -1.4 -0.2 -5.2 -0.16 -6 c0 -0.12 0.08 -0.28 0.12 -0.28 c0.08 0 0.24 0.08 0.28 0.12 c1.28 1.68 7.28 13.32 8 13.36 c0.2 0.04 0.4 0.04 0.6 0.04 c1.36 -0.08 2.56 0 3.92 0 c1.4 0 0.48 -1.36 0.24 -1.72 c-0.36 -0.52 -5.12 -9.04 -5.4 -9.56 c-0.8 -1.36 -1.48 -2.84 -2.28 -4.16 c-0.08 -0.16 -0.16 -0.4 -0.12 -0.56 c0.08 -0.48 0.2 -0.92 0.4 -1.36 c0.96 -1.88 1.96 -3.8 3.12 -5.6 c1.28 -2.04 2 -3.32 3.04 -5.16 c0.24 -0.44 0.4 -0.92 0.56 -1.44 c0.04 -0.2 -0.12 -0.4 -0.36 -0.4 c-0.76 -0.04 -3.52 0 -4.4 0 c-0.4 0 -0.8 0.08 -1 0.44 c-0.52 1 -5.88 10.8 -6.4 11.68 c-0.04 0.08 -0.16 0.12 -0.28 0.12 c0 0 -0.08 -0.12 -0.08 -0.2 c-0.04 -2.24 0.36 -9.56 0.28 -11.04 c-0.04 -0.88 -0.2 -0.96 -1.08 -1 c-0.96 -0.04 -2.28 -0.04 -3.24 -0.04 c-0.88 0 -0.96 0.48 -1.08 1.12 c-0.04 0.12 -0.04 3.88 -0.04 5.56 c0 2.44 -0.2 17.72 0.08 22.56 c0 0.48 0.12 0.76 0.52 0.76 c1.08 -0.08 2.68 0 3.76 0 c0.76 0 0.88 -0.08 0.88 -1.36 c0 -1.72 0.16 -3.28 0.16 -5.4 c0 -0.16 -0.04 -0.32 -0.04 -0.48 z M25 31.8 l-0.04 0 c0 1 -0.04 2.04 0 3.08 c0.04 1.28 0.08 2.56 0.16 3.84 c0.04 0.44 0.12 0.56 0.56 0.64 c0.8 0.2 1.64 0.24 2.48 0.24 c2.16 -0.08 2.16 -0.44 2.16 -1.92 c-0.08 -0.76 -0.04 -1.08 -0.04 -2 c0 -1.32 -0.04 -1.48 -0.04 -3.36 c0.04 -1.52 0.04 -3.48 0.04 -5.04 c0 -0.84 0.12 -1.12 0.88 -1.12 l5.84 0 c0.84 0.12 0.52 -0.44 0.52 -1.28 s0.12 -0.88 0.08 -1.72 c0 -0.4 -0.08 -0.8 -0.12 -1.2 c-0.08 -0.68 -0.32 -0.92 -1 -0.92 c-0.44 0 -0.04 0.04 -0.44 0.08 c-1.72 0.12 -3.36 -0.12 -5.08 0 c-0.56 0 -0.64 -0.08 -0.68 -0.6 c-0.12 -1.56 0 -3.28 0.16 -4.84 c0.08 -0.64 0.2 -0.76 0.8 -0.8 l5.64 -0.04 c0.8 -0.08 1.04 -0.04 0.96 -0.8 c-0.08 -1.16 0.08 -2.36 -0.08 -3.52 c-0.08 -0.64 -0.24 -0.76 -0.96 -0.76 c-1.2 0.04 -1.48 0.04 -2.68 0.12 c-1.2 0.04 -6.04 0.04 -7.2 0.04 c-1.64 0 -1.8 -0.12 -1.84 1.92 c-0.04 1.6 -0.04 3.24 -0.04 4.88 c0 2.8 -0.16 12.84 -0.04 15.08 z M47.36 29.68 c-0.12 -4.56 -0.08 -9.4 -0.04 -13.92 c0 -1.4 -0.08 -2.92 -0.08 -4.32 c0 -1.52 -0.6 -1.44 -1.4 -1.48 c-1.16 -0.04 -1.68 -0.04 -2.84 -0.04 c-0.76 -0.04 -1.08 0.16 -1.08 0.92 c0 3.92 -0.12 15 -0.08 16.6 s0.2 8.88 0.12 10.48 c-0.04 0.56 0 1.12 0.04 1.68 c0.04 0.2 0.16 0.4 0.48 0.4 c1.32 -0.08 2.56 -0.08 3.88 -0.12 c0.48 -0.04 0.88 -0.16 1.08 -0.68 c0.04 -0.28 -0.08 -7.6 -0.08 -9.52 z M56.800000000000004 9.96 c-0.88 0.04 -3.24 0 -3.56 0 c-0.56 -0.04 -0.92 0.28 -0.88 0.84 c0 0.24 0.08 0.48 0.2 0.68 c1.16 2.2 2.24 4.68 3.28 6.92 l2.52 5.28 c0.24 0.52 0.08 0.96 -0.12 1.48 c-0.12 0.28 -0.2 0.6 -0.32 0.88 c-1.56 3.68 -3.32 7.4 -5.2 10.92 c-0.4 0.76 -0.84 1.56 -1.2 2.32 c-0.48 0.96 1.12 0.72 2.92 0.72 c2.84 0 2.88 -0.16 3.04 -0.52 c0.44 -0.92 3.08 -9.08 3.84 -9.08 c0.6 0 3.56 7.88 4.24 9.16 c0.16 0.32 0.68 0.48 1.08 0.48 l2.76 0 c0.52 0 1.76 0.16 1.76 -0.52 c0 -0.52 -2 -3.88 -2.56 -5.12 l-2.44 -5.44 c-0.4 -0.88 -0.76 -1.76 -1.16 -2.6 c-0.28 -0.68 -0.8 -1.56 -0.84 -2.28 c0 -0.4 4.52 -9.16 6.2 -13.28 c0.4 -1 -1.12 -0.8 -1.64 -0.8 c-0.96 0.04 -1.76 0 -2.68 0.04 c-0.88 0 -1.12 0.24 -1.44 1 l-0.24 0.56 c-0.8 1.68 -1.96 4.76 -2.8 6.44 c-0.04 0.08 -0.16 0.2 -0.24 0.2 c-0.12 0 -0.24 -0.12 -0.24 -0.24 c-0.68 -1.72 -2.08 -5.36 -2.88 -7 c-0.36 -0.72 -0.56 -1.08 -1.4 -1.04 z M80.11999999999999 37.48 c0 -1.24 -0.96 -2.36 -2.24 -2.48 c-2.72 -0.28 -3.8 3.72 -1.32 4.8 c1 0.44 2.24 0.16 2.92 -0.64 c0.44 -0.48 0.64 -1.08 0.64 -1.68 z M99.92 14.719999999999999 c0.04 -1.32 0 -2.4 0 -3.68 c0 -1.48 -2.68 -1.32 -3.64 -1.28 c-4.28 0.28 -8.36 3 -10.32 6.72 c-0.56 1.08 -0.96 2.2 -1.24 3.36 c-0.68 2.72 -0.72 5.6 -0.4 8.36 c0.28 2.6 0.96 5.2 2.56 7.28 c2.76 3.64 7.84 4.92 12.2 4.24 c0.2 -0.04 0.4 -0.08 0.56 -0.2 c0.12 -0.08 0.24 -0.24 0.24 -0.4 l0.12 -2.28 c0.04 -0.72 0 -0.68 0 -1.4 c0 -0.96 -2 -0.24 -3.24 -0.24 c-1.2 0 -2.48 -0.04 -3.56 -0.6 c-1.92 -1.08 -3 -3.24 -3.6 -5.28 c-0.68 -2.2 -0.84 -4.56 -0.44 -6.8 c0.48 -2.92 1.88 -6.28 4.96 -7.28 c1.76 -0.6 3.64 -0.4 5.4 -0.2 c0.24 0.04 0.4 -0.12 0.4 -0.32 z M125.08 17.36 c0.84 2.48 1.04 5.16 1.04 7.8 c0 2.2 -0.4 4.32 -0.96 6.44 c-0.72 2.52 -1.92 4.8 -4.08 6.28 c-1.6 1.16 -3.28 1.92 -5.24 2.12 c-0.28 0 -0.52 0.04 -0.8 0.04 c-0.24 0 -0.48 -0.04 -0.76 -0.04 c-1.96 -0.2 -3.64 -0.96 -5.28 -2.12 c-2.12 -1.48 -3.36 -3.76 -4.04 -6.28 c-0.6 -2.12 -0.96 -4.24 -0.96 -6.44 c0 -2.64 0.2 -5.32 1.04 -7.8 c1.48 -4.28 5.56 -7.32 10 -7.4 c4.44 0.08 8.52 3.12 10.04 7.4 z M121.2 28.08 c0.4 -2.44 0.24 -4.92 -0.24 -7.36 c-0.48 -2.2 -1.44 -4.36 -3.28 -5.68 c-0.32 -0.24 -0.68 -0.44 -1.04 -0.56 c-0.52 -0.24 -1.08 -0.32 -1.6 -0.32 s-1.04 0.08 -1.56 0.32 c-0.4 0.12 -0.72 0.32 -1.04 0.56 c-1.88 1.32 -2.84 3.48 -3.28 5.68 c-0.48 2.44 -0.64 4.92 -0.24 7.36 c0.4 2.2 1.2 5.16 3.28 6.28 c0.88 0.48 1.84 0.8 2.84 0.84 c1 -0.04 2 -0.36 2.88 -0.84 c2.08 -1.12 2.88 -4.08 3.28 -6.28 z">
+                           </path>
+                        </g>
+                     </svg></a>
+               </div>
             </div>
-        </nav>
-	</header>
-	<!-- End header -->
-	
-	<!-- Start Story -->
-	<div class="story-box main-timeline-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>Let’s Start</h2>
-						<p>
-							PLEASE READ EVERYTHING. THIS IS ONLY WORKING GUIDE AND I DESCRIBED EVERYTHING SO READ IT. DON’T USE VPN PLEASE OR IT WILL NOT WORK!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row timeline-element separline" id="step1">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 1
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-left">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Open Browser</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							Open Safari Browser on iphone, if your on android use google chrome or whatever you prefer. 
-							<br/>
-							Go to this website
-							<br/>
-							<a href="https://Tweakfix.co" target="_blank">Tweakfix.co</a>
-						</p>
-					 </div>
-				</div>
-			</div>
-			<div class="row timeline-element reverse separline"  id="step2">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 2
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-right">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Tweaked Store</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							Once it loads, the tweaked store will pop up , now you will see a bunch of apps , just search for the app your trying to install from the video , and tap the install button.
-						</p>
-					 </div>
-				</div>
-			</div>
-			<div class="row timeline-element separline"  id="step3">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 3 
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-left">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Tap Install</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							once you tap install, and the app is downloading wait for it to load
-						</p>
-					 </div>
-				</div>
-			</div>
-			<div class="row timeline-element reverse separline" id="step4">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 4
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-right">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Click Allow</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							Once its done loading, on IOS you will see a pop up like this, just click allow. 
-							If your on an android device, it will redirect you to the download page for android, there will be a video tutorial on there explaining how to finish getting the app, watch it if you're confused. 
-							So back to ios, once you click allow , you’ll see a message saying “profile downloaded” pop up Click close, and exit out of your ios browser
-						</p>
-					 </div>
-				</div>
-			</div>
-			<div class="row timeline-element separline"  id="step5">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 5
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-left">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Open Settings</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							Now go over to your settings on your ios device 
-							You will click where it says “profile downloaded” there in the top If you dont see it there or having issues finding it click “General”
-						</p>
-					 </div>
-				</div>
-			</div>
-			<div class="row timeline-element reverse separline" id="step4">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 6
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-right">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Goto VPN And device management</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							And then in general , scroll down and click “VPN And device management”. You should now see the profile we just installed, in this case it was the monopoly go mod, but in your case it could be any of the other apps or games. Just click it 
-						</p>
-					 </div>
-				</div>
-			</div>
-			<div class="row timeline-element separline"  id="step5">
-				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
-                    <div class="time-line-date-content">
-                        <p class="mbr-timeline-date mbr-fonts-style display-font">
-                            Step 5
-                        </p>
-                    </div>
-				</div>
-				<span class="iconBackground"></span>
-				<div class="col-xs-12 col-md-6 align-left">
-					<div class="timeline-text-content">
-						<h4 class="mbr-timeline-title pb-3 mbr-fonts-style display-font">Install Profile</h4>
-						<p class="mbr-timeline-text mbr-fonts-style display-7">
-							It will show a pop up like this, just click “install” in the top right corner , if you have a passcode it will ask you to enter it, if you dont, it will just take you straight to a page like this then tap the “next” button in the top right corner.
-							It will show this pop up , just click “install” in the top right corner It will then show this.
-							Click “done” and your app will appear on home screen.
-						</p>
-					 </div>
-				</div>
-			</div>
+            <div class="col-md-10 hidden-xs hidden-sm">
+               <div class="main-menu">
+                  <nav class="nav-menu">
+                     <ul>
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#about">Watch Tutorial</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#steps">Install</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+               <div class="mobile_menu"></div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section id="home" class="slider-area with-gradiant parallax" data-speed="3" data-bg-image="">
+      <div class="container">
+         <div class="col-md-6 col-sm-6 hidden-xs">
+            <div class="row">
+               <div class="slider-img">
+                  <img src="images/feature-img.png" alt="slider image">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="row">
+               <div class="slider-inner text-right">
+                  <h2 style="font-size: 42px;">TweakFix.co - 3rd party app store</h2>
+                  <br>
+                  <p style="color: #fff;font-size:22px;">How To Install the App From The Video Tutorial (INSTRUCTIONS
+                     STEP BY STEP). Follow the Steps Below or Watch The Tutorial, to Download Your Desired App From The
+                     YouTube/TikTok Video You Watched it From</p>
+                  <br>
+                  <a href="https://tweakfix.co">Install Now</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="about">
+      <div class="about-area ptb--100">
+         <div class="container">
+            <div class="section-title">
+               <h2>Watch Tutorial</h2>
+            </div>
+            <div class="row d-flex flex-center">
+               <!--div class="col-md-5 col-sm-5 hidden-xs">
+                     <div class="about-left-img">
+                        <img src="images/abt-left-img.png" alt="image">
+                     </div>
+                  </div-->
+               <div class="col-md-10 col-sm-10 col-md-offset-1 col-xs-12 d-flex flex-center">
+                  <div class="about-content">
+                     <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/ZcDDds300VY?si=Auk9w_1yvjrZdgDQ&amp;controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                     <!--<p style="text-align: justify; font-size: 120%;">You can install hacked games/apps, tweak app stores, latest jailbreak features for the latest iOS versions such as iOS 17, etc. Also, TweakFix.co allows you to install Jailbreak apps and tweaks to the latest iOS version up to iOS 17</p>-->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="screen-area bg-gray ptb--100" id="screenshots">
+      <div class="container">
+         <div class="section-title">
+            <h2>Screenshots</h2>
+         </div>
+         <div class="screen-slider owl-carousel">
+            <div class="single-screen">
+               <img src="images/0.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/1.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/2.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/3.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/4.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/5.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/6.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/7.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/8.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/9.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/10.jpg" alt="mobile screen">
+            </div>
+            <div class="single-screen">
+               <img src="images/11.jpg" alt="mobile screen">
+            </div>
+         </div>
+      </div>
+   </section>
+   <div class="video-area ptb--100">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+               <h2>Watch Video Now</h2>
+               <a class="expand-video" href="https://www.youtube.com/watch?v=ZcDDds300VY"><i class="fa fa-play"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <section class="team-area bg-gray ptb--100" id="steps">
+      <div class="container">
+         <div class="section-title">
+            <h2>How to install TweakFix.co?</h2>
+         </div>
+         <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/step1.png" alt="image">
+                  </div>
+                  <h4>Step 01</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">Open Safari Browser on iphone,
+                     if your on android use google chrome or whatever you prefer.
+                     <br />
+                     Click Install now button</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/0.jpg" alt="image">
+                  </div>
+                  <h4>Step 02</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">Once it loads, the tweaked store
+                     will pop up, now you will see a bunch of apps, just search for the app your trying to install from
+                     the video, and tap the install button.<br><br></span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/1.jpg" alt="image">
+                  </div>
+                  <h4>Step 03</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">Once you tap install, and the
+                     app is downloading wait for it to load<br><br><br></span>
+               </div>
+            </div>
+         </div>
+         <div class="row" style="margin-top: 2%;">
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/2.jpg" alt="image">
+                  </div>
+                  <h4>Step 04</h4>
+                  <span style="text-align: center; margin-left: 2%; margin-right: 2%;">Once its done loading, on IOS you
+                     will see a pop up like this, just click allow. If your on an android device, it will redirect you
+                     to the download page for android, there will be a video tutorial on there explaining how to finish
+                     getting the app, watch it if you're confused. So back to ios, once you click
+                     allow<br><br><br></span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/3.jpg" alt="image">
+                  </div>
+                  <h4>Step 05</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">you’ll see a message saying
+                     “profile downloaded” pop up Click close, and exit out of your ios browser<br><br></span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/4.jpg" alt="image">
+                  </div>
+                  <h4>Step 06</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">Now go over to your settings on
+                     your ios device You will click where it says “profile downloaded” there in the top</span>
+               </div>
+            </div>
+         </div>
+         <div class="row" style="margin-top: 2%;">
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/5.jpg" alt="image">
+                  </div>
+                  <h4>Step 07</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">If you dont see it there or
+                     having issues finding it click “General”</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/6.jpg" alt="image">
+                  </div>
+                  <h4>Step 08</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">And then in general, scroll down and click “VPN And device management”. You should now see the profile we just installed, in this case it was the monopoly go mod, but in your case it could be any of the other apps or games. Just click it</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/7.jpg" alt="image">
+                  </div>
+                  <h4>Step 09</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">It will show a pop up like this, just click “install” in the top right corner , if you have a passcode it will ask you to enter it</span>
+               </div>
+            </div>
+         </div>
 
-		</div>
-	</div>
-	<!-- End Story -->
+         <div class="row" style="margin-top: 2%;">
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/8.jpg" alt="image">
+                  </div>
+                  <h4>Step 10</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">if you dont, it will just take you straight to a page like this then tap the “next” button in the top right corner.</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/9.jpg" alt="image">
+                  </div>
+                  <h4>Step 11</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">It will show this pop up , just click “install” in the top right corner It will then show this. Click “done” and your app will appear on home screen.</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col-6">
+               <div class="single-team single-team2">
+                  <div class="team-thumb">
+                     <img src="images/10.jpg" alt="image">
+                  </div>
+                  <h4>Step 12</h4>
+                  <span style="text-align: justify; margin-left: 4%; margin-right: 4%;">Click “done” and your app will appear on home screen.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
-	<!-- Start Footer -->
-	<footer class="footer-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<p class="footer-company-name">&copy; Copyright 2024 | All Rights Reserved.</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- End Footer -->
+   <section class="contact-area ptb--100" id="contact">
+      <div class="container">
+         <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>TweakFix.co developers are always ready to help you regarding any issues of TweakFix.co, Please <a
+                  href="#" class="external item-link"><b
+                     style="font-size:18px; color: #621bec;"><u>DM us on instagram</u></b></a> if you need any
+               further support. We will respond to you asap.</p>
+         </div>
+         <div class="row">
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="footer-area">
+         <div class="container">
+            <p> © Copyright TweakFix.co 2024</p>
+         </div>
+      </div>
+   </footer>
+   <script src="js/jquery-3.2.0.min.js"></script>
+   <script src="js/jquery-ui.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.slicknav.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/magnific-popup.min.js"></script>
+   <script src="js/counterup.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="js/jquery.mb.YTPlayer.min.js"></script>
+   <script src="js/theme.js"></script>
 
-	<!-- ALL JS FILES -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
 </body>
+
 </html>
